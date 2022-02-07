@@ -3,10 +3,10 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://pilotfiber.dl.sourceforge.net/project/NusantaraProject//jasmine_sprout/Nusantara_v1.0-jasmine_sprout-14082020-OFFICIAL-0602.zip
-  ROM_NAME: Generic:Nusantara_v1
+  ROM_URL: https://bigota.d.miui.com/V12.5.6.0.RFACNXM/miui_CEPHEUS_V12.5.6.0.RFACNXM_5d1239a6d1_11.0.zip
+  ROM_NAME: MIUI
   ZIP_NAME: Nusantara_v1
-  TZ: America/Sao_Paulo
+  TZ: Asia/Beijing
   MIR: gof
 jobs:
   build:
